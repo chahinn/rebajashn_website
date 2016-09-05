@@ -1,0 +1,73 @@
+
+.aico-button,
+.aico-button:link,
+.aico-button:visited {
+	display: block;
+	position: relative;
+	
+/*	padding: 0 0 0 28px;*/
+	height: 30px;
+	line-height: 45px;
+	
+	text-align: center;
+	
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	width: 104px;
+	float:left;
+	margin-right: 30px;
+}
+
+.aico-button strong {
+	position: absolute;
+	top: 15px;
+	left: 58px;
+	display: none;
+	opacity: 0.5;
+	
+	font-size: 10px;
+}
+
+.aico-button span {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: -30px;
+	width: 30px;
+	height: 30px;
+	
+	background-position: right top;
+}
+
+.aico-save,
+.aico-save span		{ text-shadow: #ffffff 1px 1px 1px; background-image: url("/images/save_to_keeper.png"); }
+.aico-remove,
+.aico-remove span		{ text-shadow: #ffffff 1px 1px 1px; background-image: url("/images/remove_this.png"); }
+.aico-print,
+.aico-print span		{ text-shadow: #ffffff 1px 1px 1px; background-image: url("/images/print_this_coupon.png"); }
+
+.aico-map,
+.aico-map span 		{ text-shadow: #ffffff 1px 1px 1px; background-image: url("/images/map_n_directions.png"); }
+.aico-black,
+.aico-black span 		{ text-shadow: #222222 1px 1px 1px; background-image: url("images/buttons/aico.button.black.png"); }
+.aico-green,
+.aico-green span 		{ text-shadow: #5A972B 1px 1px 1px; background-image: url("images/buttons/aico.button.green.png"); }
+.aico-yellow,
+.aico-yellow span 		{ text-shadow: #B19F3D 1px 1px 1px; background-image: url("images/buttons/aico.button.yellow.png"); }
+.aico-orange,
+.aico-orange span 		{ text-shadow: #b0522e 1px 1px 1px; background-image: url("images/buttons/aico.button.orange.png"); }
+.aico-red,
+.aico-red span 			{ text-shadow: #943b3b 1px 1px 1px; background-image: url("images/buttons/aico.button.red.png"); }
+.aico-pink,
+.aico-pink span 		{ text-shadow: #b2378e 1px 1px 1px; background-image: url("images/buttons/aico.button.pink.png"); }
+.aico-purple,
+.aico-purple span 		{ text-shadow: #823b94 1px 1px 1px; background-image: url("images/buttons/aico.button.purple.png"); }
+.aico-blue,
+.aico-blue span 		{ text-shadow: #325ba5 1px 1px 1px; background-image: url("images/buttons/aico.button.blue.png"); }
+
+.aico-button:hover		{ background-position: left -30px; }
+.aico-button:hover span { background-position: right -30px; }

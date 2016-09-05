@@ -1,0 +1,90 @@
+#tableta
+{
+border-color: rgb( 100, 100, 255); border-style: dashed;
+}
+table tr td {
+	padding: 0px 10px;
+}
+
+.triangle_top_left {
+	margin-top: 10px;
+}
+
+.company_title {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:19px;
+	text-transform:uppercase;
+	font-weight:bold;
+	
+}
+
+
+.mobile_man_holder {
+/*	margin:12px 24px 0px 0px;*/
+}
+
+.left_content_holder {
+	margin:13px 0px 10px 0px;
+	border-right:1px solid #000;
+	padding:10px 16px 0px 10px;
+	text-align:right;
+	width: 120px;
+}
+
+.left_content_holder img {
+	max-width:114px;
+	max-height:104px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.company_address {
+	margin-top:8px;
+	text-align:left;
+	font-size:11px;
+	line-height:12px;
+}
+
+.company_address_title {
+	font-weight:bold;
+}
+
+.incentive_holder {
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	margin-top: 20px;	
+}
+
+.disclaimer_holder {
+	font-size:12px;
+	color:#333;
+	margin:5px 0px 0px 0px;
+}
+
+.bottom_tagline_holder {
+	font-size:12px;
+	color:#333;
+	margin-bottom: 16px;
+/*	margin:0px 0px 0px 16px;*/
+}
+
+.coupontable {
+	border: 2px dashed #777; background: #fff; margin-bottom: 20px; width: 98%;
+	}
+
+@media screen
+{
+	.coupontable {
+		width: 750px;
+	}
+}
+@media print
+{
+	img.aico-print {
+		display: none;
+	}
+	.coupontable {
+		width: 98%;
+	}
+}

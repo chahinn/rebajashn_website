@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<script src="update.js"></script>
+	
+		
+		<title>
+			Rebajashn.com
+		</title>
+	
+	<style>
+		body{
+				background-color: #c0c0c0;
+				
+				font-family: Arial;
+				font-size: 14px;
+				color: #fff;
+			}
+
+			#content{
+				width: 620px;
+				
+				margin: auto;
+				margin-top: 50px;
+				
+				border: 1px solid #777;
+				box-shadow: 0px 0px 10px -3px #000;
+			}
+
+			#content .head{
+				height: 39px;
+				background: url( redirect/head_bg.png ) repeat-x #008fe7;
+				border-bottom: 1px solid #1173b0;
+				
+				padding: 3px;
+			}
+
+			#content .head .text{
+				background: url( ../images/update/head_text.png ) no-repeat;
+				width: 414px;
+				height: 39px;
+				
+				margin-left: 5px;
+			}
+
+			#content.install .head .text{
+				background: url( ../images/install/head_text.png ) no-repeat;
+				width: 366px;
+				height: 39px;
+			}
+
+			#content .body{
+				background-color: #00aff0;
+			}
+
+			#content .body .description1{
+				padding: 5px 20px 0px 20px;
+			}
+
+			#content .body table.advantages{
+				width: 100%;
+				padding-left: 20px;
+				padding-right: 20px;
+				
+				margin-top: 12px;	
+			}
+
+			#content .body table.advantages td{
+				
+				width: 50%;
+				
+			}
+
+			#content .body table.advantages h3{
+				
+				font-size: 16px;
+
+				margin: 0px;
+				
+			}
+
+			#content .body table.advantages ul{	
+				margin: 0px;
+				list-style: none;
+				padding: 0px;	
+			}
+
+			#content .body table.advantages ul li{	
+				margin: 0px;	
+			}
+
+			#content .body .macOsAd{
+				height: 77px;
+				border-top: 1px solid #94e2ff;
+				border-bottom: 1px solid #94e2ff;
+				position: relative;		
+			}
+
+
+
+			#content .body .converterAd{
+				background: url( redirect/elevation_bg.png );
+				height: 252px;
+				border-top: 1px solid #94e2ff;
+				border-bottom: 1px solid #94e2ff;
+				position: relative;	
+			}
+
+			#content .body .converterAd .text{
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				left: 380px;
+				top: 21px;
+				color:black;
+				font-size:15px;
+			}
+
+			#content .body .converterAd .readMore{
+				background: url( ../images/update/converter_read_more.png );
+				width: 103px;
+				height: 31px;
+				position: absolute;
+				bottom: 5px;
+				right: 20px;
+				
+				opacity: 1;
+			}
+
+			#content .body .converterAd .readMore:hover{
+				opacity: 0.7;
+			}
+
+			#content .foot{
+				height: 40px;
+				
+				
+					background: url( redirect/head_bg2.png ) repeat-x #008fe7;
+				border-bottom: 1px solid #1173b0;
+				
+				position: relative;
+			}
+
+			#content .foot .text{
+				width: 208px;
+				height: 39px;
+				
+				margin-left: 5px;
+			}
+
+			#content .foot .buttons{
+				position: absolute;
+				right: 0px;
+				top: 8px;
+				
+				width: 200px;
+				height: 50px;
+				
+				display: table;
+			}
+
+			#content .foot .buttons > a{
+				display: inline-block;	
+				vertical-align: middle;
+				
+				margin-left: 10px;
+				
+				opacity: 0.7;
+			}	
+
+			#content .foot .buttons > a:hover{
+				opacity: 1;
+			}
+
+			#content .foot .contact{
+				width: 80px;
+				height: 22px;
+				background: url( ../images/update/contact_us.png );
+			}
+
+			#content .foot .facebook{
+				width: 35px;
+				height: 35px;
+				background: url( ../images/update/facebook.png );
+			}
+
+			#content .foot .twitter{
+				width: 35px;
+				height: 35px;
+				background: url( ../images/update/twitter.png );
+			}
+
+			.spacer{
+				height: 10px;
+			}
+		
+	</style>
+	<script language="JavaScript" type="text/javascript">
+		var count =30
+		var redirect="http://www.elevation19.com"
+
+		function countDown(){
+		 if (count <=0){
+		  window.location = redirect;
+		 }else{
+		  count--;
+		  document.getElementById("timer").innerHTML = "Ud. será direccionado en  "+count+" segundos."
+		  setTimeout("countDown()", 1000)
+		 }
+		}
+		</script>
+	</head>
+	
+	<body>
+		
+		<div id="content">
+			
+			<div class="head">
+				<div class="text"></div>
+			</div>
+
+			<div class="body">
+				
+				<div class="description1">
+						</div>
+				
+				<table class="advantages">
+					
+					<tr>
+						<td valign="top">
+						   <img src="redirect/logo_footer.png">
+						
+							<ul>
+								<li><strong style="font-size:14px"> Rebajashn evoluciona a Elevation19.</strong> </li>													
+							</ul>
+						</td>
+						<td valign="top">
+							
+							<ul>
+								<li STYLE='font-size:14px'>Para  <strong style="font-size:16px">Rebajashn</strong> ustedes siempre han sido la prioridad. Por eso hemos evolucionado a  <strong style="font-size:16px">Elevation19</strong>, que les brindara mas y mayores beneficios e interacción entre su comunidad.
+ </li>														
+							</ul>				
+						</td>						
+					</tr>
+					
+				</table>
+				
+				<div class="converterAd">
+					
+					<div class="text">
+						
+<h3>Nuestra Misión</h3>
+
+Ayudar a nuestros usuarios a descubrir y a disfrutar con sus familiares y amigos de su ciudad, presentándoles todos los días las mejores ofertas y eventos exclusivos.
+
+					</div>
+					
+					<a href="http://flashvideodownloader.org/fvd-suite/to/s/chrome_converter/" class="readMore"></a>
+					
+				</div>
+				
+				<div class="macOsAd" style="display:none">
+				<a href="http://fvdsearch.com/mac/go.php?sid=1"><img width="620" src="http://www.creativetoyou.com/banners/42111/loading_728x90_en.jpg"></a>
+				</div>
+				
+			</div>			
+
+
+			<div class="foot">
+				<span id="timer">
+							<script>
+							 countDown();
+							</script>
+							</span>
+				<div class="text">
+				
+				
+				</div>
+				
+				<div class="buttons">
+					<a href="http://www.elevation19.com" class="contact" STYLE="color:white;"> ELEVATION19.COM</a>
+					
+													
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</body>
+	
+</html>

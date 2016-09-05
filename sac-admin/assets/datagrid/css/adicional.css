@@ -1,0 +1,120 @@
+<!--
+/*-------------------------------------
+	RESET
+-------------------------------------*/
+
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,   
+li, dl, dt, dd, form, fieldset, textarea, th, td   
+{   
+margin: 0; padding: 0; border: 0; outline: none;   
+}
+
+#colors :focus { outline: none; }
+
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+}
+body {
+	background-image: url(../modules/datagrid/images/gray/bg.jpg);
+	
+}
+#headerhome {
+  width: 859px;
+  margin: 0 auto;
+  margin-top: opx;
+  display: block;
+  height: 72px;
+  overflow: hidden;
+  background-image: url(../modules/datagrid/images/gray/bghome.png);
+  padding: 15px 30px 0;
+  position: relative;
+}
+#logo1 {
+  width: 258px;
+  height: 46px;
+  display: block;
+  background-image: url(../modules/datagrid/images/gray/logo.png);
+  text-indent: -9999px;
+  position: absolute;
+  top: 16px;
+  left: 30px;
+  -webkit-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
+}
+/* @group service */
+
+#service {
+  font-size: 12px;
+  line-height: 17px;
+  color: #a9a9a9;
+  text-shadow: #fffeff 0 1px 0;
+  position: absolute;
+  top: 33px;
+  right: 14px;
+  text-shadow: #fffeff 0 1px 0;
+}
+
+#service li {
+  display: inline;
+  margin-right: 15px;
+}
+
+#service li a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+#service li a:hover {
+  text-decoration: underline;
+}
+
+/* @group Breadcrumb */
+#breadcrumb {
+	
+  width: 859px;
+  margin: 0 auto;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  background: url(../modules/datagrid/images/gray/bg.png) no-repeat;
+  padding: 0px 21px 0;
+  font-size: 11px;
+}
+
+#breadcrumb a, #breadcrumb p {
+  padding-left: 30px;
+  padding-right: 10px;
+  background: url(../modules/datagrid/images/gray/arrow.png) no-repeat left top;
+  color: #333;
+  text-shadow: #fff 0px 1px 1px;
+  float: left;
+}
+
+#breadcrumb a {
+  display: block;
+  color: #666;
+}
+
+#breadcrumb a:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+#breadcrumb a.home {
+  text-indent: -9999px;
+  width: 24px;
+  height: 17px;
+  background: url(../modules/datagrid/images/gray/images.png) no-repeat 0 -73px;
+  padding-left: 0;
+  margin: 11px 0 0;
+}
+
+#breadcrumb a.home:hover {
+  background-position: 0 -90px;
+}
+/* @end */
+-->

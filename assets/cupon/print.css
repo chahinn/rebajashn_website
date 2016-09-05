@@ -1,0 +1,7 @@
+/*div#sidebar, div#header, div#footer-widget-area, div#menu-wrapper { display: none; }
+/*div#container_content { border: 2px solid #ff0; }
+h1 {display: none;}*/
+
+body * { visibility: hidden; }
+#contenedor * { visibility: visible; }
+#contenedor { position: absolute; top: 40px; left: 30px; }
