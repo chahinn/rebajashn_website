@@ -10,3 +10,5 @@ In addition, the website had a search engine to look for offers more easily as w
 Business' website built using PHP, Javascript libraries, HTML, CSS, SQL
 
 The old link we used was www.rebajashn.com, unfortunately when the company was bought we were no longer responsible to renew the domain. For that reason it is hard to show the link.
+
+-Nicolas Chahin
